@@ -27,18 +27,6 @@ public enum SideNumber {
         }
     }
 
-    public static int getOppositeSide(int a) {
-        switch (a) {
-            case 0:
-                return 5;
-            case 5: return 0;
-            case 2 : return 4;
-            case 4:return 2;
-            case 3 : return 1;
-            case 1: return 3;
-            default : return -1;
-        }
-    }
 
 
 }
